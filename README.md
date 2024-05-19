@@ -50,3 +50,4 @@ Y ya puedes disfrutar en la dirección: `http://localhost:3000`.
 ## Documentation
 
 - [Notion](https://diamond-icicle-333.notion.site/Producto-9b2383c2e0da4451b55ebffbecb4af0e?pvs=4)
+- [Figma](https://www.figma.com/design/pUWHULMpXMxE6E4k6jsSZJ/Perfiles-StartApp-(Copy)?node-id=0%3A1&t=hKs68LdVWX3J7Z2i-1)
