@@ -118,6 +118,10 @@ const config: HardhatUserConfig = {
       url: "https://sepolia.publicgoods.network",
       accounts: [deployerPrivateKey],
     },
+    fujiAvalanche: {
+      url: "https://api.avax-test.network/ext/bc/C/rpc",
+      accounts: ["0x3a534b552588d3a53cf9b8bb10e87e3311f8851c06ffebd54536ef4a6e0bf14e"],
+    },
   },
   // configuration for harhdat-verify plugin
   etherscan: {

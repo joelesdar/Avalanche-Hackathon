@@ -1,32 +1,34 @@
 "use client";
 
 import React from "react";
-import { TrophyIcon } from "@heroicons/react/24/outline";
-
-// import Image from "next/image";
-// import Link from "next/link";
 
 export const DailyReport = () => {
   return (
-    <div className="bg-indigo-400 rounded-xl flex justify-center items-center flex-col sm:flex-row gap-4 py-10">
-      <div className="w-full md:w-1/2 flex justify-center items-center">
-        <TrophyIcon className="h-64 w-64 fill-secondary" />
+    <>
+      <div className="flex w-full justify-center items-center flex-col sm:flex-row gap-4 bg-cover bg-[url('../public/background.jpg')]">
+        <div className="bg-gradient-to-t from-[#B9D122] to-[rgba(245, 245, 245, 0.16)] w-full py-10">
+          <div className="w-full md:w-1/2 px-6 text-white pt-16 px-8">
+            <h2 className="justify-center block text-7xl mb-2 font-bold">Recoge tu recompensa</h2>
+            <p className="justify-center block text-3xl mb-2 font-medium">8 de 15 días</p>
+          </div>
+        </div>
       </div>
-      <div className="w-full md:w-1/2">
-        <h2 className="text-center block text-2xl mb-2">Meta actual</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, delectus exercitationem! Recusandae,
-          fuga. Dolor iste, nemo non ducimus consectetur magni explicabo beatae error voluptatum, eaque perferendis
-          labore modi id dolores!
-        </p>
+      <div className="justify-center items-center flex flex-col text-center">
         <button
           type="button"
-          className="px-4 py-3 bg-blue-600 rounded-md text-white outline-none focus:ring-4 shadow-lg transform active:scale-x-75 transition-transform mx-5 flex"
+          className="px-12 py-3 my-10 w-fit bg-accent font-semibold rounded-xl text-black outline-none focus:ring-4 shadow-lg transform active:scale-x-75 transition-transform mx-5 flex"
         >
-          <TrophyIcon className="h-6 w-6 fill-secondary" />
-          <span className="ml-2">Completar</span>
+          <span className="ml-2 text-2xl">Recoger</span>
         </button>
+        <div className="flex gap-8 pb-10">
+          <div className="rounded-full bg-[#219653] h-16 w-16"></div>
+          <div className="rounded-full bg-[#219653] h-16 w-16"></div>
+          <div className="rounded-full bg-[#219653] h-16 w-16"></div>
+          <div className="rounded-full bg-[#219653] h-16 w-16"></div>
+          <div className="rounded-full bg-[#C4C4C4] h-16 w-16"></div>
+          <div className="rounded-full bg-[#C4C4C4] h-16 w-16"></div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
